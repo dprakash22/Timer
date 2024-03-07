@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tstyle.css">
+    <style>
+         th, td {
+        border: 1px solid;
+        border-style: solid;
+        border-color: blue;
+        border-collapse: separate;
+      }
+    </style>
+</head>
+<body>
+    <script src="./tscripts.js"></script>
+    
+    <!-- timer -->
+    <div>
+    <div class="h">
+    
+    <h1 class="head1"><img src="images\timer-removebg-preview.png" alt="timer">Timer</h1>
+    <h5 style="display:inline">Title  :  <input id="t1" type="text" style="width:200px;height:25px"> </h1>
+    <h1 id="d3"> 00:00:00</h1>
+    </div>
+
+    <div class="btn">
+    <button id="st" onclick="start()">Start</button>
+    </div>
+    <div class="btn1">
+    <button hidden id="sp" onclick="stop()">Stop</button>
+    <button hidden id="re" onclick="reset()">Reset</button>
+    <button hidden id="fl" onclick="flag()">flag</button>
+    </div>
+
+</div>
+    <div class="t">
+    <!-- <a href="tflag.html" target="_blank"><button id="f2">table</button></a> -->
+    <table style="width:100%" id="table">
+        <th>S.NO</th>
+        <th>Title</th>
+        <th>Flag</th>
+    </table>
+</div>
+
+</body>
+</html>

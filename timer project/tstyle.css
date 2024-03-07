@@ -1,0 +1,125 @@
+
+.h {
+    text-align: center;
+
+    color:darkblue;
+    /* background: hsla(33, 100%, 53%, 1);
+
+background: linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF930F", endColorstr="#FFF95B", GradientType=1 ); 
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;  */
+    /* font-family: "Open Sans", "Segoe UI", sans-serif; */
+    font-size: 50px;
+}
+
+/* .head1{
+    
+} */
+
+/*.head1 {
+     background-image: url('timer.jpg'); 
+    /* background-repeat: no-repeat;  */
+    /* object-fit: fill; */
+    /* background-size: 1px; */
+    /* background-position: center; */
+    /* background-position-y:0px;} */
+
+
+body{ background: hsla(57, 100%, 84%, 1);
+
+background: linear-gradient(90deg, hsla(57, 100%, 84%, 1) 0%, hsla(280, 84%, 55%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(57, 100%, 84%, 1) 0%, hsla(280, 84%, 55%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(57, 100%, 84%, 1) 0%, hsla(280, 84%, 55%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#fffbaf", endColorstr="#ab2aed", GradientType=1 );
+}
+
+#st{
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border: 3px solid green;
+    justify-content: center;
+    align-items: center;
+    margin-left: 46%;
+}
+
+.btn1{
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 35%;
+    margin-right: 30%;  
+}
+
+#sp{
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border: 3px solid green;
+    justify-content: center;
+    align-items: center;
+    
+}
+#re{
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border: 3px solid green;
+    justify-content: center;
+    align-items: center;
+    
+}
+#fl{
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border: 3px solid green;
+    justify-content: center;
+    align-items: center;
+}
+#f2{
+    margin-top: 30px;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border: 3px solid green;
+    justify-content: center;
+    align-items: center;
+    margin-left: 46%;
+    margin-right: 30%;
+}
+table,td,th{
+    font-size: 20px;
+    border: 1px solid rgb(130, 21, 21);
+    border-collapse: collapse;
+    padding: 10px;
+}
+th{
+    color: blue;
+}
+
+.t{
+    margin: 20%;
+    margin-top: 70px;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #4fb885;
+}
+
+img{
+    margin-top: 10px;
+    height: 80px;
+    width: 80px;
+}
